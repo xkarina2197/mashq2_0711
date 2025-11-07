@@ -19,8 +19,8 @@ for  i in range(-10,11):
 
 # 4-misol
 sum = 0
-for i in range(1, 100):
-     sum += i
-     if i % 3 != 0:
+for i in range(1, 101):
+     if i % 3 == 0:
          continue
+     sum += i
 print(sum)
